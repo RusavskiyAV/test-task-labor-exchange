@@ -1,0 +1,30 @@
+{
+    "name": "rusavskiyav/worker-market",
+    "description": "Тестовое задание для сделка.рф",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\Builder\\": "tests/Builder/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rusavskiy Aleksey",
+            "email": "rusavskiy.av@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "squizlabs/php_codesniffer": "4.0.x-dev",
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "require": {
+        "brick/money": "dev-master",
+        "webmozart/assert": "1.10.x-dev",
+        "symfony/validator": "5.4.x-dev",
+        "nesbot/carbon": "2.x-dev"
+    }
+}
